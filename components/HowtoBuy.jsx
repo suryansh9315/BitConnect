@@ -10,7 +10,7 @@ const HowtoBuy = () => {
             how to buy
           </h2>
         </div>
-        <div className="w-[80%] flex items-center justify-center">
+        <div className="w-[90%] lg:w-[80%] flex items-center justify-center">
           <div className="h-64 sm:h-72 xl:h-[350px] 2xl:h-96 w-full">
             <Carousel>
               <div className="flex h-full items-center justify-center text-white">
