@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 const About = () => {
   return (
-    <div className="mx-auto max-w-7xl">
+    <div className="mx-auto max-w-7xl bg-white">
       <div className="flex items-center justify-center gap-1 py-10 lg:flex-row flex-col">
         <div className="flex-[0.55] flex items-center justify-center">
           <img src="/about.png" className="h-[80%] w-[80%]" alt="" />
