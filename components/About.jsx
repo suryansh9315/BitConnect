@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 const About = () => {
   return (
     <div className="mx-auto max-w-7xl bg-white">
-      <div className="flex items-center justify-center gap-1 py-10 lg:flex-row flex-col">
-        <div className="flex-[0.55] flex items-center justify-center">
-          <img src="/about.png" className="h-[80%] w-[80%]" alt="" />
+      <div className="flex items-center justify-center gap-1 py-16 lg:flex-row flex-col">
+        <div className="flex-[0.55] flex items-center justify-center rounded-lg">
+          <img src="/aboutt.jpeg" className="h-[70%] w-[70%] rounded-lg" alt="" />
         </div>
         <div className="flex-[0.45] items-center justify-center flex">
           <div className="flex flex-col justify-center gap-5 items-center lg:items-start">

@@ -1,6 +1,10 @@
 import React from "react";
 import { Footer } from "flowbite-react";
-import {} from '@heroicons/react/24/solid'
+import GithubIcon from '../public/github.svg'
+import InstagramIcon from '../public/instagram.svg'
+import TelegramIcon from '../public/telegram.svg'
+import TwitterIcon from '../public/twitter.svg'
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -43,10 +47,10 @@ const Contact = () => {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright href="#" by="BitConnect™" year={2023} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              {/* <Footer.Icon href="#" icon={BsTelegram} />
-              <Footer.Icon href="#" icon={BsInstagram} />
-              <Footer.Icon href="#" icon={BsTwitter} />
-              <Footer.Icon href="#" icon={BsGithub} /> */}
+              <Image src={TwitterIcon} className="cursor-pointer" />
+              <Image src={TelegramIcon} className="cursor-pointer" />
+              <Image src={GithubIcon} className="cursor-pointer" />
+              <Image src={InstagramIcon} className="cursor-pointer" />
             </div>
           </div>
         </div>
