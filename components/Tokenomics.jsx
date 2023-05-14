@@ -3,7 +3,7 @@ import { Tokenomicspie } from "./Tokenomicspie";
 
 const Tokenomics = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto bg-white">
       <div className="flex items-center justify-center flex-col py-10 gap-14">
         <div>
           <h2 className="text-5xl font-semibold text-[#C248FE] font-DMSans">
