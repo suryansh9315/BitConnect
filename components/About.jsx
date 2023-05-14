@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="mx-auto max-w-7xl bg-white">
       <div className="flex items-center justify-center gap-1 py-16 lg:flex-row flex-col">
-        <div className="flex-[0.55] flex items-center justify-center rounded-lg gap-4 lg:gap-0">
+        <div className="flex-[0.55] flex items-center justify-center rounded-lg gap-6 lg:gap-0">
           <img src="/aboutt.jpeg" className="h-[70%] w-[70%] rounded-lg" alt="" />
         </div>
         <div className="flex-[0.45] items-center justify-center flex">
@@ -30,7 +30,7 @@ const About = () => {
                 <span className="text-sm font-semibold">
                   <a
                     className={`${inter.className}`}
-                    href="https://docs.google.com/document/d/1V3TWfIzXuvgz65f1YnReMcZn0XzW1UBCYNhEWxHi13g/edit?usp=drivesdk"
+                    href="https://docs.google.com/document/d/13gAVPJLqpjXufNAAL4OJRV0irShxwbiUwV5gz26NL0o/edit"
                     target="_blank"
                   >
                     Whitepaper

@@ -47,10 +47,10 @@ const Contact = () => {
           <div className="w-full sm:flex sm:items-center sm:justify-between">
             <Footer.Copyright href="#" by="BitConnect™" year={2023} />
             <div className="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
-              <Image src={TwitterIcon} className="cursor-pointer" />
-              <Image src={TelegramIcon} className="cursor-pointer" />
-              <Image src={GithubIcon} className="cursor-pointer" />
-              <Image src={InstagramIcon} className="cursor-pointer" />
+              <Image src={TwitterIcon} className="cursor-pointer" alt="twitter" />
+              <Image src={TelegramIcon} className="cursor-pointer" alt="telegram" />
+              <Image src={GithubIcon} className="cursor-pointer" alt="github" />
+              <Image src={InstagramIcon} className="cursor-pointer" alt="instagram" />
             </div>
           </div>
         </div>
