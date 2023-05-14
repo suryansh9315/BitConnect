@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="mx-auto max-w-7xl bg-white">
       <div className="flex items-center justify-center gap-1 py-16 lg:flex-row flex-col">
-        <div className="flex-[0.55] flex items-center justify-center rounded-lg">
+        <div className="flex-[0.55] flex items-center justify-center rounded-lg gap-4 lg:gap-0">
           <img src="/aboutt.jpeg" className="h-[70%] w-[70%] rounded-lg" alt="" />
         </div>
         <div className="flex-[0.45] items-center justify-center flex">
