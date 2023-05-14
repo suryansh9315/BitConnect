@@ -10,7 +10,7 @@ const Tokenomics = () => {
             tokenomics
           </h2>
         </div>
-        <div className="flex flex-col-reverse lg:flex-row w-[75%]">
+        <div className="flex flex-col-reverse lg:flex-row w-[75%] gap-10">
           <div className="flex-[0.5] flex flex-col gap-5">
             <div>
               <h3 className="text-3xl font-semibold font-DMSans mb-2">token supply</h3>
